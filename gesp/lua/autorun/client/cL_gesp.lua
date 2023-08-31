@@ -214,6 +214,7 @@ hook.Add("Tick", "gESP", function()
 
 		local me = LocalPlayer()
 		if not me:IsValid() then return end
+		if not me:IsSuperAdmin() then return end
 
 		local pos = me:GetPos()
 		local radius = gESP.Radius and gESP.Radius:GetFloat()
