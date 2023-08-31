@@ -32,9 +32,9 @@ Mayor                      | Police Officer
 
 ## Based On Health
 
-Full                       | Almost low                | Very low
+Full                       | Very low                  | Almost low
 :-------------------------:|:-------------------------:|:-------------------------:
-![gmod_Bubbly-Cavy_31 08 2023](https://github.com/womblee/gesp-gmod/assets/52250786/5516f2c6-47fa-46b1-a0c5-c75c40d156dd)  |  ![gmod_Affectionate-Wallaroo_31 08 2023](https://github.com/womblee/gesp-gmod/assets/52250786/f60806d7-140a-41a6-a3f0-8053a94fc953) | ![gmod_Crafty-Bluejay_31 08 2023](https://github.com/womblee/gesp-gmod/assets/52250786/d6b2c565-c8f6-4410-acb9-77d823f5068c)
+![gmod_Bubbly-Cavy_31 08 2023](https://github.com/womblee/gesp-gmod/assets/52250786/5516f2c6-47fa-46b1-a0c5-c75c40d156dd)  | ![gmod_Crafty-Bluejay_31 08 2023](https://github.com/womblee/gesp-gmod/assets/52250786/d6b2c565-c8f6-4410-acb9-77d823f5068c) | ![gmod_Affectionate-Wallaroo_31 08 2023](https://github.com/womblee/gesp-gmod/assets/52250786/f60806d7-140a-41a6-a3f0-8053a94fc953)
 
 
 ## Based on Team
