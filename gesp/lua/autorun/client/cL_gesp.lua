@@ -300,7 +300,15 @@ hook.Add("PreDrawOutlines", "gESP", function()
 				for _, pos in next, poss do
 					local toscr = ply:LocalToWorld(pos):ToScreen()
 					if toscr.visible and toscr.x > 0 and toscr.y > 0 and toscr.x < ScrW() and toscr.y < ScrH() then
-						outline.Add(ply, gESP.HaloTeam and gESP.HaloTeam:GetBool() and team.GetColor(ply:Team()) or CalculateHealthColor(ply:Health()))
+						if gESP.HaloTeam and gESP.HaloTeam:GetBool() then
+                                                    local tcolor = team.GetColor(ply:Team())
+                                                    tcolor[4] = 255 -- have to do this since on some servers the alpha is fucked
+                        
+                                                    outline.Add(ply, tcolor)
+                                                else
+                                                    outline.Add(ply, CalculateHealthColor(ply:Health()))
+                                                end
+						
 						break
 					end
 				end
