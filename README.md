@@ -8,6 +8,20 @@ Coolest ESP for GMOD with cool features **such as**:
 # Installation
 Simply create drag the folder inside the 'addons' folder!
 
+# Configuration
+```
+'gesp_enabled' 0|1 -- disable/enable gESP
+'gesp_compact' 0|1 -- compact view
+'gesp_pixvis' 0|1 -- visibility check
+'gesp_ents' 0|1 -- show entities with configured profiles
+'gesp_players' 0|1 -- show players
+'gesp_limit' int -- how many entities to show
+'gesp_spectators' 0|1 -- show spectators
+'gesp_halo_enable' 0|1 -- halo effect
+'gesp_halo_team' 0|1 -- halo based on team (0 for health, 1 for team color)
+'gesp_radius' int -- radius (30470400 for best coverage)
+```
+
 # Player Info
 Mayor                      | Police Officer
 :-------------------------:|:-------------------------:
