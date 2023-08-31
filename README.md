@@ -6,9 +6,11 @@ Coolest ESP for GMOD with cool features **such as**:
 - Compact view
 
 # Installation
-Simply create drag the folder inside the 'addons' folder!
+**FOR SERVER OWNERS** *(will be available to super admins only)*:
+- Drag and drop the 'glua' folder into addons.
 
-But since this doesn't have the 'superadmin' check, you should load it with your favorite gLua Loader...
+**FOR CHEAT USERS** *(single file, glua loader intended version)*:
+- Load 'gesp_for_loader.lua' in your gLua loader.
 
 # Configuration
 ```
