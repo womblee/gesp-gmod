@@ -8,6 +8,8 @@ Coolest ESP for GMOD with cool features **such as**:
 # Installation
 Simply create drag the folder inside the 'addons' folder!
 
+But since this doesn't have the 'superadmin' check, you should load it with your favorite gLua Loader...
+
 # Configuration
 ```
 'gesp_enabled' 0|1 -- disable/enable gESP
