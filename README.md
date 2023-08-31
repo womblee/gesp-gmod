@@ -6,7 +6,7 @@ Coolest ESP for GMOD with cool features **such as**:
 - Compact view
 
 # Installation
-Simply create an addon with any name you want and put the 'lua' folder inside.
+Simply create drag the folder inside the 'addons' folder!
 
 # Player Info
 Mayor                      | Police Officer
