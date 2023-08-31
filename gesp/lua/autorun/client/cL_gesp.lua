@@ -67,8 +67,8 @@ gESP.Profiles = {
 				(e:Armor() > 0 and "Armor: " .. e:Armor()) or nil,
 				"Distance: " .. math.floor(e:GetPos():Distance(LocalPlayer():GetPos())),
 				(
-					rp and "Money: " .. rp.FormatMoney(e:GetMoney()) or -- Superior Servers
-                                        DarkRP and "Money: " .. DarkRP.formatMoney(e:getDarkRPVar("money")) or -- DarkRP
+					rp and "Money: " .. rp.FormatMoney(e:GetMoney()) or -- Superior Servers (OBSOLETE, data is not given out to randoms)
+                                        DarkRP and "Money: " .. DarkRP.formatMoney(e:getDarkRPVar("money")) or -- DarkRP (WORKS)
                                         nil
                                 ),
 				--[[
@@ -201,7 +201,8 @@ function gESP.DrawInfo(entry)
 	surface.SetAlphaMultiplier(1)
 end
 
-local function i_empty(tab)
+-- Arghh tabl function :d
+function table.iEmpty(tab)
     for k, v in ipairs(tab) do
         tab[k] = nil
     end
