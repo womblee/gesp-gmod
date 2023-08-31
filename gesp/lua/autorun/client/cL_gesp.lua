@@ -66,7 +66,11 @@ gESP.Profiles = {
 				"Health: " .. e:Health(),
 				(e:Armor() > 0 and "Armor: " .. e:Armor()) or nil,
 				"Distance: " .. math.floor(e:GetPos():Distance(LocalPlayer():GetPos())),
-				(DarkRP and "Money: " .. DarkRP.formatMoney(e:getDarkRPVar("money")) or nil),
+				(
+					rp and "Money: " .. rp.FormatMoney(e:GetMoney()) or -- Superior Servers
+                                        DarkRP and "Money: " .. DarkRP.formatMoney(e:getDarkRPVar("money")) or -- DarkRP
+                                        nil
+                                ),
 				--[[
 				(e.DarkRPVars and
 					(
@@ -197,9 +201,15 @@ function gESP.DrawInfo(entry)
 	surface.SetAlphaMultiplier(1)
 end
 
+local function i_empty(tab)
+    for k, v in ipairs(tab) do
+        tab[k] = nil
+    end
+end
+
 hook.Add("Tick", "gESP", function()
 	if gESP.IntEnabled and gESP.Enabled:GetBool() then
-		table.iEmpty(gESP.Drawables)
+		i_empty(gESP.Drawables)
 
 		local me = LocalPlayer()
 		if not me:IsValid() then return end
