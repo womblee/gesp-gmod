@@ -210,7 +210,7 @@ end
 
 hook.Add("Tick", "gESP", function()
 	if gESP.IntEnabled and gESP.Enabled:GetBool() then
-		i_empty(gESP.Drawables)
+		table.iEmpty(gESP.Drawables)
 
 		local me = LocalPlayer()
 		if not me:IsValid() then return end
