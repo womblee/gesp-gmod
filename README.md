@@ -45,4 +45,9 @@ Full                       | Very low                  | Almost low
 
 ![gmod_Arctic-Marmoset_31 08 2023](https://github.com/womblee/gesp-gmod/assets/52250786/c89402a5-6725-403a-a59f-256e05a31aea)
 
+# Important note
+Since servers with the 'SuperiorServers' base don't really give out money information, the money is shown as the default wallet
 
+![image](https://github.com/womblee/gesp-gmod/assets/52250786/9a8394f6-f362-4317-a5b8-20850f7bd172)
+
+As you can see, everyone has 15,000$ here...
